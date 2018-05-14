@@ -10,7 +10,7 @@ import json
 """
 
 
-with open(sys.argv[1], 'r') as f:
+with open(sys.argv[1], 'r', encoding='utf-8') as f:
     alldata = json.load(f)
 
 def getJsonLine(row, schema):
