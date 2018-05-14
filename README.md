@@ -2,10 +2,6 @@
 
 ### Usage:
 
-#### View dataset information:
-// Todo
-
-***
 
 #### Load the chosen dataset:
 All dataset json file names are in ```jsonfiles.txt```, here we only use the file name. Command: ```./load.sh [json_file_name]```, for instance, for the first json file, the command is ```./load.sh 22rf-yxcy.json```.
